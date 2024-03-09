@@ -3,7 +3,7 @@ maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures voidworks'
-version '0.2.3'
+version '0.2.4'
 chef_version '>= 16.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
@@ -17,4 +17,4 @@ chef_version '>= 16.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/voidworks'
-include 'databag'
+depends 'databag'
