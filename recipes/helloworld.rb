@@ -1,4 +1,4 @@
 file '/etc/brood' do
-  content 'Welcome to Hell'\n
+  content 'Welcome to Hell\n'
 end
 
