@@ -5,7 +5,7 @@
 # Copyright:: 2024, The Authors, All Rights Reserved.
 
 # Retrieve Password from encrypted Databag
-ipa_secret = Chef::EncryptedDataBagItem.load_secret('/etc/chef/encrypted_data_bag_secret')
+ipa_secret = Chef::EncryptedDataBagItem.load_secret('/etc/cinc/encrypted_data_bag_secret')
 ipa_credentials = data_bag_item('ipa', 'secret', ipa_secret)
 
 # Extract the password from the data bag
